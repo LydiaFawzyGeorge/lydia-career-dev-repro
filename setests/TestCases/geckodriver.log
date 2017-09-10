@@ -1,0 +1,57 @@
+1504805627223	geckodriver	INFO	geckodriver 0.18.0
+1504805627238	geckodriver	INFO	Listening on 127.0.0.1:1753
+1504805629339	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1504805631683	Marionette	INFO	Listening on port 1759
+1504805632477	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504805679694	Marionette	INFO	Ceased listening
+1504805687425	geckodriver	INFO	geckodriver 0.18.0
+1504805687425	geckodriver	INFO	Listening on 127.0.0.1:1828
+1504805689555	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1504805691451	Marionette	INFO	Listening on port 1834
+1504805691624	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1504805740580	Marionette	INFO	New connections will no longer be accepted
+1505036345157	geckodriver	INFO	geckodriver 0.18.0
+1505036345162	geckodriver	INFO	Listening on 127.0.0.1:3808
+1505036347265	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505036349486	Marionette	INFO	Listening on port 3815
+1505036350412	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505036410721	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1505036410940	Marionette	INFO	Ceased listening
+1505036434391	geckodriver	INFO	geckodriver 0.18.0
+1505036434396	geckodriver	INFO	Listening on 127.0.0.1:3865
+1505036436499	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505036438603	Marionette	INFO	Listening on port 3871
+1505036439626	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505036627756	geckodriver	INFO	geckodriver 0.18.0
+1505036627762	geckodriver	INFO	Listening on 127.0.0.1:4172
+1505036629840	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505036631783	Marionette	INFO	Listening on port 4192
+1505036631920	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505037231185	Marionette	INFO	Ceased listening
+1505037512449	geckodriver	INFO	geckodriver 0.18.0
+1505037512455	geckodriver	INFO	Listening on 127.0.0.1:4752
+1505037514567	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505037516481	Marionette	INFO	Listening on port 4758
+1505037516637	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505037635076	Marionette	INFO	New connections will no longer be accepted
+1505037662799	geckodriver	INFO	geckodriver 0.18.0
+1505037662804	geckodriver	INFO	Listening on 127.0.0.1:4996
+1505037664932	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1505037667000	Marionette	INFO	Listening on port 5002
+1505037668074	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://account.magento.com/js/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505037917281	Marionette	INFO	New connections will no longer be accepted

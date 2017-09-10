@@ -1,23 +1,27 @@
 from Base.BaseTestCase import BaseTestCase
-from DataSource.ExcelLib import Data
-from ddt import ddt, data, unpack
+
 from DataSource.GenerateData import GenerateMyData
 from TestScript.UserRegisterTestScript import UserRegisterScript
 import unittest
+from DataSource.DataSource_1 import JsonData
 
 
-@ddt
+
 class UserRegister(BaseTestCase):
 
     _rows = []
-
-    @data(*Data.get_data("../DataSource/DataSource.xlsx"))
-    @unpack
-    def test_a_register(self,FName,LName,Email,ScreenName,Password,Primarily,Role):
-
-        global _rows
-        _rows = GenerateMyData.my_generated_data_to_register(self,FName,LName,Email,ScreenName,Password,Primarily,Role)
-        UserRegisterScript.new_user_register(self,_rows)
+    def test_a_register(self):
+        data= JsonData.json_data(self)
+        FName= data["FName"]
+        LName= data["LName"]
+        Email= data["Email"]
+        ScreenName= data["ScreenName"]
+        Password= data["Password"]
+        Primarily= data["Primarily"]
+        Role= data["Role"]
+        global register_values
+        register_values = GenerateMyData.my_generated_data_to_register(self,FName,LName,Email,ScreenName,Password,Primarily,Role)
+        UserRegisterScript.new_user_register(self,register_values)
 
     def test_b_sumbit_register(self):
         UserRegisterScript.submit_registeration(self)
@@ -26,7 +30,7 @@ class UserRegister(BaseTestCase):
         UserRegisterScript.logout_user(self)
 
     def test_d_user_login(self):
-        UserRegisterScript.login_user(self,_rows)
+        UserRegisterScript.login_user(self,register_values)
         UserRegisterScript.login_verify(self)
 
 
