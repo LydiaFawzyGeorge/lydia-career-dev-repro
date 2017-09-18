@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<data>
+    <Browser name="Chrome">
+        <path>../Resources/chromedriver.exe</path>
+    </Browser>
+    <Application name="magentocommerce">
+        <Url>http://demo.magentocommerce.com/</Url>
+    </Application>
+</data>

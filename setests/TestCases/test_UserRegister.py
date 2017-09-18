@@ -12,15 +12,15 @@ class UserRegister(BaseTestCase):
     _rows = []
     def test_a_register(self):
         data= JsonData.json_data(self)
-        FName= data["FName"]
-        LName= data["LName"]
-        Email= data["Email"]
-        ScreenName= data["ScreenName"]
-        Password= data["Password"]
-        Primarily= data["Primarily"]
-        Role= data["Role"]
+        first_name= data["FName"]
+        last_name= data["LName"]
+        email= data["Email"]
+        screen_name= data["ScreenName"]
+        password= data["Password"]
+        primarily= data["Primarily"]
+        role= data["Role"]
         global register_values
-        register_values = GenerateMyData.my_generated_data_to_register(self,FName,LName,Email,ScreenName,Password,Primarily,Role)
+        register_values = GenerateMyData.my_generated_data_to_register(self,first_name,last_name,email,screen_name,password,primarily,role)
         UserRegisterScript.new_user_register(self,register_values)
 
     def test_b_sumbit_register(self):
