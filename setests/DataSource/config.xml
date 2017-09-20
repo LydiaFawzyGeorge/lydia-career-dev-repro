@@ -6,4 +6,7 @@
     <Application name="magentocommerce">
         <Url>http://demo.magentocommerce.com/</Url>
     </Application>
+    <Login>
+        <Url>https://account.magento.com/customer/account/login</Url>
+    </Login>
 </data>
